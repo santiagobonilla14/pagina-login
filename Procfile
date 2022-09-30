@@ -1,1 +1,1 @@
-web: gunicorn src:'create_all()'
+web: gunicorn src:'create_app()'
