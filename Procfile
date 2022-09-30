@@ -1,1 +1,1 @@
-web: gunicorn src:'app_run()'
+web: gunicorn app:'db.create_all()'
