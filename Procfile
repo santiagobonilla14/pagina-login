@@ -1,1 +1,1 @@
-web: gunicorn src:'create_app()'
+web: gunicorn python main.py
