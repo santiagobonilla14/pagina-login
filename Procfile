@@ -1,1 +1,1 @@
-web gunicorn main:'app.run()'
+worker python main.py
